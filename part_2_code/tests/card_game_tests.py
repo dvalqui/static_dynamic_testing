@@ -31,3 +31,12 @@ class TestCardGame(unittest.TestCase):
         self.assertEqual(card2, actual)
 
 #Expected and Actual
+
+
+def test_card_total(self):
+    card1 = Card('clubs', 2)
+    card2 = Card('clubs', 10)
+
+    cards = (card1, card2)
+    self.assertEqual(f'You have a total of 12',
+                     self.card_game.cards_total(cards))

@@ -19,7 +19,7 @@ class CardGame:
             return card2
 
     def cards_total(self, cards):  # fixed indentation
-        total #create list of 3 or 4 cards in test
+        total  # create list of 3 or 4 cards in test
         for card in cards:
             total += card.value
-            return "You have a total of" + total
+            return (f"You have a total of" + {total})
